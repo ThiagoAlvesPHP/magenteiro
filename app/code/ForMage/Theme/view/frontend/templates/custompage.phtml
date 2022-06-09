@@ -1,0 +1,13 @@
+<?php /** @var ForMage\Theme\ViewModel\CustomViewModel $block */ ?>
+
+<h1>Pagina customizada Magento</h1>
+
+<h3><?php echo $block->myFirstCustomMethod(); ?></h3>
+
+<h4><?php echo $block->mySecondCustomMethod(); ?></h4>
+
+<h4>Nome: <?php echo $block->getProductName('MP12'); ?></h4>
+
+<pre>
+<?php print_r($block->getAll('MP12')); ?>
+</pre>
