@@ -7,4 +7,11 @@
             </argument>
         </arguments>
     </type>
+    <virtualType name="Magenteiro\BibliotecaNacional\Model\LivrosVirtuais" type="Magenteiro\BibliotecaNacional\Model\Livros">
+        <arguments>
+            <argument name="livros" xsi:type="array">
+                <item name="livro3-virtual" xsi:type="string">Livros 03 - Virtual</item>
+            </argument>
+        </arguments>
+    </virtualType>
 </config>
