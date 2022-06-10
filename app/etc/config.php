@@ -263,6 +263,7 @@ return [
         'MagedIn_CourseExemple' => 1,
         'Magenteiro_BibliotecaNacional' => 1,
         'Magenteiro_BibliotecaSaoPaulo' => 1,
+        'Magenteiro_HideWishList' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,
         'Vertex_AddressValidation' => 1,
