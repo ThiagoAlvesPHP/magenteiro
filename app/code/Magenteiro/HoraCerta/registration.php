@@ -6,4 +6,4 @@
 
 use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magenteiro_CustomerNormalizer', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magenteiro_HoraCerta', __DIR__);
