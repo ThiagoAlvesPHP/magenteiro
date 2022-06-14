@@ -2,19 +2,19 @@
 
 namespace Magenteiro\HoraCerta\Controller\Index;
 
-use Magento\Framework\App\Action\HttpGetActionInterface;
+use Magento\Framework\App\Action\Action;
+use Magento\Framework\App\Action\Context;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Stdlib\DateTime\Timezone;
 
-class Index implements HttpGetActionInterface
+class Index extends Action
 {
     private $timezone;
-    private $resultFactory;
 
-    public function  __construct(Timezone $timezone, ResultFactory $resultFactory)
+    public function  __construct(Timezone $timezone, Context $context)
     {
+        parent::__construct($context);
         $this->timezone = $timezone;
-        $this->resultFactory = $resultFactory;
     }
 
     public function execute()
